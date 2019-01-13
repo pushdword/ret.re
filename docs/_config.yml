@@ -2,8 +2,7 @@ highlighter: rouge
 # Site settings
 title: ret.re - reverse and more
 email: vhs@ret.re
-description: > # this means to ignore newlines until "baseurl:"
-I'm a security professional in vulnerability research, management and also security testing. This website is an attempt to expose what I do on non-labour hours and I hope motivate others to follow this awesome IT field. Note that I'm not an expert.
+description: "I'm a security professional in vulnerability research, management and also security testing. This website is an attempt to expose what I do on non-labour hours and I hope motivate others to follow this awesome IT field. Note that I'm not an expert."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ret.re" # the base hostname & protocol for your site
 twitter_username: pushdword
