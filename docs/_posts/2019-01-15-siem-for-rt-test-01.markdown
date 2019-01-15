@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SIEM for readteam - Architecture for test01 scenario - Phishing event"
+title:  "SIEM for redteam - Architecture for test01 scenario - Phishing event"
 date:   2019-01-15 01:10:00 +0000
 categories: phishing siem redteam
 ---
