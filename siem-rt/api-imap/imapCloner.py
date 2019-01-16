@@ -26,25 +26,34 @@ def home():
 @app.route('/imapO365',methods=['POST'])
 def imapO365():
     content = request.get_json(silent=True)
-
+    print("IMAP O365 TRIGGERED")
+    print(content['email'])
+    print(content['pass'])
+    print(content['client'])
     return "OK"
 
 #IMAP of Google route
 @app.route('/imapGoogle',methods=['POST'])
 def imapGoogle():
     content = request.get_json(silent=True)
-
+    print("IMAP GOOGLE TRIGGERED")
+    print(content['email'])
+    print(content['pass'])
+    print(content['client'])
     return "OK"
 
 #IMAP of Others
 @app.route('/imapTry',methods=['POST'])
 def imapTry():
     content = request.get_json(silent=True)
-
+    print("IMAP OTHERS TRIGGERED")
+    print(content['email'])
+    print(content['pass'])
+    print(content['client'])
     return "OK"
 
 
 
 # If we're running in stand alone mode, run the application
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port=5010)
