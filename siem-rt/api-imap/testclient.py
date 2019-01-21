@@ -2,9 +2,9 @@
 import requests
 res = requests.post('http://localhost:5000/test',
 json={
-    "client":"Other",
-    "email":"something@example.com",
-    "pass" : "testing123"
+    "client":"O365",
+    "email":"test@msn.com",
+    "pass" : ""
     })
 
 print(res.text)
