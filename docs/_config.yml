@@ -7,6 +7,17 @@ baseurl: ""
 url: "https://ret.re"
 twitter_username: pushdword
 github_username:  pushdword
+author:
+  twitter: pushdword
+
+social:
+  name: Vítor Silva
+  links:
+  - https://twitter.com/pushdword
+  - https://www.linkedin.com/in/ret-ret/
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
